@@ -54,7 +54,7 @@ def train(mnist):
 
     # train.Saver是自动加断点、保存函数
     saver = tf.train.Saver()
-    with tf.Session() as sess:
+    with tf.Session() as sess: 
         # 初始化全局变量
         tf.global_variables_initializer().run()
         for i in range(TRAINING_STEPS):
