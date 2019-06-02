@@ -58,9 +58,9 @@ def app_run():
         prevalue = restore_model(testPicArr)
         #print(true_val,int(prevalue))
         if int(true_val) == int(prevalue):
-            flg = '识别正确'
+            flg = '识别正确！'
         else:
-            flg = '识别错误'
+            flg = '识别错误！'
         #print(flg)
         print('识别后的输出是:',int(prevalue) , ','+ flg)
 
